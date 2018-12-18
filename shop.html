@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="author" content="網頁作者">
+    <meta name="keywords" content="咖啡, 網頁, 賣咖啡, 買咖啡, 東山, 台南, 台南市">
+    <meta name="descriptions" content="東山咖啡銷售網站">
+    <title>東山咖啡</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="shortcut icon" href="img/coffee-1.png" />
+    <link rel="bookmark" href="img/coffee-1.png" />
+    <link rel="stylesheet" href="css/coffee.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg border-bottom border-success fixed-top" style="border-width:5px !important">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/coffee-1.png" width="30" height="30" alt="">
+                東山咖啡</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"></li>
+                    <a class="nav-link" href="index.html"><i class="fas fa-check-circle"></i>首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="intro.html"><i class="fas fa-comment-dots"></i>環境介紹</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="shop.html"><i class="fas fa-coffee"></i>咖啡館</a>
+
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- 商品區 -->
+    <div class="container-fluid bg-primary" style="padding:81px 0 20px 0">
+        <div class="container">
+            <h2 class="text-center text-white">咖啡店商品介紹</h2>
+            <hr>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+                    <div class="card">
+                        <img class="card-img-top" src="img/Coffee-goods_01.jpg">
+                        <div class="card-body text-center">
+                            <h3>咖啡小車車</h3>
+                            <p>有咖啡也有小車車</br>兩個願望一次滿足</p>
+                        </div>
+                        <div class="card-footer">
+                            <p class="mb-0">新台幣150元</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+                    <div class="card">
+                        <img class="card-img-top" src="img/Coffee-goods_07.jpg">
+                        <div class="card-body text-center">
+                            <h3>龍眼蜂蜜</h3>
+                            <p>下午茶的好搭檔<br>真心推薦</p>
+                        </div>
+                        <div class="card-footer">
+                            <p class="mb-0">新台幣450元</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+                    <div class="card">
+                        <img class="card-img-top" src="img/Coffee-goods_03.JPG">
+                        <div class="card-body text-center">
+                            <h3>濾泡式咖啡包</h3>
+                            <p>隨身攜帶最方便</br>香濃好喝</p>
+                        </div>
+                        <div class="card-footer">
+                            <p class="mb-0">新台幣180元</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+                    <div class="card">
+                        <img class="card-img-top" src="img/Coffee-goods_06.jpg">
+                        <div class="card-body text-center">
+                            <h3>即溶咖啡</h3>
+                            <p>二合一/焦糖</br>兩種口味一次滿足</p>
+                        </div>
+                        <div class="card-footer">
+                            <p class="mb-0">新台幣300元</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 表單區 -->
+    <div class="container-fluid bg-dark" style="padding:20px 0 20px 0">
+        <div class="container">
+            <h2 class="text-center text-white">咖啡店商品訂購</h2>
+            <hr>
+            <form>
+                <div class="form-group row text-white">
+                    <label for="buyname" class="col-sm-2 col-form-label">購買人姓名</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="" id="inputEmail3" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-group row text-white">
+                    <label for="buytel" class="col-sm-2 col-form-label">購買人電話</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="" id="buytel" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-group row text-white">
+                    <label for="buyadr" class="col-sm-2 col-form-label">購買人地址</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="" id="buyadr" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-group row text-white">
+                    <label for="buymail" class="col-sm-2 col-form-label">購買人信箱</label>
+                    <div class="col-sm-10">
+                        <input type="email" name="" id="buymail" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-group row text-white">
+                    <label for="buymail" class="col-sm-2 col-form-label">購買商品</label>
+                    <div class="col-sm-10">
+                        <select class="form-control" required>
+                            <option>咖啡小車車</option>
+                            <option>咖啡中車車</option>
+                            <option>咖啡大車車</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row text-white">
+                    <div class="col-sm-2"></div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="buyagree" required>
+                        <label class="form-check-label" for="gridCheck1">
+                            我同意使用者條款
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-12 text-center">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="fas fa-paper-plane"></i>送出
+                        </button>
+                        <button type="button" class="btn btn-warning text-white" data-toggle="modal" data-target="#exampleModal">
+                            詳細說明
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- 頁尾版權 -->
+    <div class="container-fluid bg-success" style="padding:20px 0 20px 0">
+        <div class="container text-center text-white">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://twitter.com/?lang=zh-tw " target="_blank"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="" target="_blank"><i class="fab fa-line"></i></a>
+                </li>
+            </ul>
+            &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            PHP網頁班
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">詳細說明</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-danger">下單後請先匯款</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
